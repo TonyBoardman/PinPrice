@@ -1,0 +1,50 @@
+
+@import "Parts/Header.scss";
+@import "Parts/Middle.scss";
+@import "Parts/WhatWeDo.scss";
+@import "Parts/Footer.scss";
+
+
+hr{
+    border-radius: 5px;
+
+    border-top: 5px solid orange;
+}
+.smallhr{
+    border-top: 1px solid orange;
+    border-radius: 1px;
+
+}
+
+@media (min-width: 1100px*.50) //550
+{
+    @include Header(.50);
+    @include Middle(.50);
+    @include Footer(.50);
+    @include WhatWeDo(.50);
+}
+
+@media (min-width: 1100px*.7)// 770
+{
+    
+    @include Header(.70);
+    @include Middle(.7);
+    @include Footer(.7);
+    @include WhatWeDo(.7)
+}
+
+@media (min-width: 1100px*.8)// 880px
+{
+    @include Header(.8);
+    @include Middle(.8);
+    @include Footer(.8);
+    @include WhatWeDo(.8)
+}
+
+@media (min-width: 1100px) 
+{
+    @include Header(1);
+    @include Middle(1);
+    @include Footer(1);
+    @include WhatWeDo(1)  
+}

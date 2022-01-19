@@ -1,0 +1,589 @@
+hr {
+  border-radius: 5px;
+  border-top: 5px solid orange;
+}
+
+.smallhr {
+  border-top: 1px solid orange;
+  border-radius: 1px;
+}
+
+@media (min-width: 550px) {
+  td, tr, table {
+    margin: 0px;
+    padding: 0px;
+  }
+  #Header table {
+    padding-left: 5px;
+  }
+  #Header {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    height: 87.5px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #Header .i {
+    font-weight: bold;
+    color: green;
+    text-shadow: 0.5px 0.5px green;
+  }
+  #Header #Left {
+    padding-top: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: auto;
+    float: left;
+    width: 105px;
+    text-align: center;
+  }
+  #Header td {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+  }
+  #Header #Center {
+    text-shadow: 2px 2px black;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    height: 50px;
+    line-height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  #Header #Right {
+    font-weight: bold;
+    padding-top: 12.5px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    width: 105px;
+    text-shadow: 1px 1px black;
+    float: right;
+  }
+  #HeaderText {
+    text-align: center;
+  }
+  #Col1, #Col2 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    border: orange 5px solid;
+  }
+  #Col1 img, #Col2 img {
+    padding-top: 2.5px;
+    width: 225px;
+    height: 225px;
+  }
+  .CaseName {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    border-radius: 25px;
+    margin: 10px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
+    color: yellow;
+    font-size: 17.5px;
+    font-weight: bold;
+    line-height: 22.5px;
+  }
+  #Available1::after {
+    line-height: 12.5px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  #Available2::after {
+    line-height: 12.5px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  .Size {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 12.5px;
+    margin-bottom: 12.5px;
+  }
+  .SizeInfo {
+    font-size: 7.5px;
+  }
+  #HeaderText {
+    font-size: 10px;
+    text-align: center;
+  }
+  .List .text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .List .text2 {
+    font-size: 30px;
+    color: green;
+  }
+  .List table {
+    margin: auto;
+  }
+  #thatsnotallsmall {
+    font-size: 25px;
+    text-align: center;
+  }
+  .tnc {
+    font-size: 7.5px;
+    text-align: center;
+  }
+  #WhatWeDoText {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 770px) {
+  td, tr, table {
+    margin: 0px;
+    padding: 0px;
+  }
+  #Header table {
+    padding-left: 7px;
+  }
+  #Header {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    height: 122.5px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #Header .i {
+    font-weight: bold;
+    color: green;
+    text-shadow: 0.7px 0.7px green;
+  }
+  #Header #Left {
+    padding-top: 1.4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: auto;
+    float: left;
+    width: 147px;
+    text-align: center;
+  }
+  #Header td {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1.4px 1.4px black;
+  }
+  #Header #Center {
+    text-shadow: 2.8px 2.8px black;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    height: 70px;
+    line-height: 105px;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  #Header #Right {
+    font-weight: bold;
+    padding-top: 17.5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    width: 147px;
+    text-shadow: 1.4px 1.4px black;
+    float: right;
+  }
+  #HeaderText {
+    text-align: center;
+  }
+  #Col1, #Col2 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    border: orange 5px solid;
+  }
+  #Col1 img, #Col2 img {
+    padding-top: 3.5px;
+    width: 315px;
+    height: 315px;
+  }
+  .CaseName {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    border-radius: 25px;
+    margin: 10px;
+    height: 49px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1.4px 1.4px black;
+    color: yellow;
+    font-size: 24.5px;
+    font-weight: bold;
+    line-height: 31.5px;
+  }
+  #Available1::after {
+    line-height: 17.5px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  #Available2::after {
+    line-height: 17.5px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  .Size {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 17.5px;
+    margin-bottom: 17.5px;
+  }
+  .SizeInfo {
+    font-size: 10.5px;
+  }
+  #HeaderText {
+    font-size: 14px;
+    text-align: center;
+  }
+  .List .text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .List .text2 {
+    font-size: 30px;
+    color: green;
+  }
+  .List table {
+    margin: auto;
+  }
+  #thatsnotallsmall {
+    font-size: 25px;
+    text-align: center;
+  }
+  .tnc {
+    font-size: 10.5px;
+    text-align: center;
+  }
+  #WhatWeDoText {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 880px) {
+  td, tr, table {
+    margin: 0px;
+    padding: 0px;
+  }
+  #Header table {
+    padding-left: 8px;
+  }
+  #Header {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    height: 140px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #Header .i {
+    font-weight: bold;
+    color: green;
+    text-shadow: 0.8px 0.8px green;
+  }
+  #Header #Left {
+    padding-top: 1.6px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: auto;
+    float: left;
+    width: 168px;
+    text-align: center;
+  }
+  #Header td {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1.6px 1.6px black;
+  }
+  #Header #Center {
+    text-shadow: 3.2px 3.2px black;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    height: 80px;
+    line-height: 120px;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  #Header #Right {
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 168px;
+    text-shadow: 1.6px 1.6px black;
+    float: right;
+  }
+  #HeaderText {
+    text-align: center;
+  }
+  #Col1, #Col2 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    border: orange 5px solid;
+  }
+  #Col1 img, #Col2 img {
+    padding-top: 4px;
+    width: 360px;
+    height: 360px;
+  }
+  .CaseName {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    border-radius: 25px;
+    margin: 10px;
+    height: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1.6px 1.6px black;
+    color: yellow;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  #Available1::after {
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  #Available2::after {
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  .Size {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .SizeInfo {
+    font-size: 12px;
+  }
+  #HeaderText {
+    font-size: 16px;
+    text-align: center;
+  }
+  .List .text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .List .text2 {
+    font-size: 30px;
+    color: green;
+  }
+  .List table {
+    margin: auto;
+  }
+  #thatsnotallsmall {
+    font-size: 25px;
+    text-align: center;
+  }
+  .tnc {
+    font-size: 12px;
+    text-align: center;
+  }
+  #WhatWeDoText {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1100px) {
+  td, tr, table {
+    margin: 0px;
+    padding: 0px;
+  }
+  #Header table {
+    padding-left: 10px;
+  }
+  #Header {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    height: 175px;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+  }
+  #Header .i {
+    font-weight: bold;
+    color: green;
+    text-shadow: 1px 1px green;
+  }
+  #Header #Left {
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: auto;
+    float: left;
+    width: 210px;
+    text-align: center;
+  }
+  #Header td {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+  }
+  #Header #Center {
+    text-shadow: 4px 4px black;
+    color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    height: 100px;
+    line-height: 150px;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  #Header #Right {
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 210px;
+    text-shadow: 2px 2px black;
+    float: right;
+  }
+  #HeaderText {
+    text-align: center;
+  }
+  #Col1, #Col2 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 48%;
+    text-align: center;
+    border: orange 5px solid;
+  }
+  #Col1 img, #Col2 img {
+    padding-top: 5px;
+    width: 450px;
+    height: 450px;
+  }
+  .CaseName {
+    background: #b3a200;
+    background: -moz-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: -webkit-linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    background: linear-gradient(180deg, #b3a200 0%, #f5d45e 60%, #8c8300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b3a200",endColorstr="#8c8300",GradientType=1);
+    border-radius: 25px;
+    margin: 10px;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
+    color: yellow;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+  }
+  #Available1::after {
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  #Available2::after {
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    content: "Available (In Stock)";
+  }
+  .Size {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .SizeInfo {
+    font-size: 15px;
+  }
+  #HeaderText {
+    font-size: 20px;
+    text-align: center;
+  }
+  .List .text {
+    text-align: center;
+    font-size: 20px;
+  }
+  .List .text2 {
+    font-size: 30px;
+    color: green;
+  }
+  .List table {
+    margin: auto;
+  }
+  #thatsnotallsmall {
+    font-size: 25px;
+    text-align: center;
+  }
+  .tnc {
+    font-size: 15px;
+    text-align: center;
+  }
+  #WhatWeDoText {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
